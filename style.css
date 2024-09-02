@@ -1,0 +1,83 @@
+/* Reset básico para garantir que o estilo seja consistente entre diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global para o corpo do site */
+body {
+    font-family: Arial, sans-serif; /* Fonte limpa e legível */
+    line-height: 1.6; /* Altura da linha para melhorar a legibilidade */
+    color: #333; /* Cor do texto padrão */
+    background-color: #f4f4f4; /* Cor de fundo clara e neutra */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #333; /* Cor de fundo escura para o cabeçalho */
+    color: #fff; /* Cor do texto branca para contraste */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Alinha os itens do menu horizontalmente */
+    justify-content: center; /* Centraliza o menu horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Torna o texto dos links negrito */
+    padding: 5px 10px; /* Espaçamento interno dos links */
+    border-radius: 5px; /* Arredonda os cantos dos links */
+    transition: background 0.3s ease; /* Transição suave para mudanças de fundo */
+}
+
+nav ul li a:hover {
+    background: #575757; /* Cor de fundo quando o mouse está sobre o link */
+}
+
+/* Estilo do corpo principal da página */
+main {
+    padding: 20px; /* Espaçamento interno */
+    max-width: 800px; /* Largura máxima para limitar o tamanho do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo horizontalmente */
+    background: #fff; /* Cor de fundo branca para o conteúdo principal */
+    border-radius: 8px; /* Arredonda os cantos do conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao redor do conteúdo */
+}
+
+h1 {
+    color: #333; /* Cor do título principal */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+p {
+    margin-bottom: 15px; /* Espaçamento abaixo dos parágrafos */
+}
+
+a {
+    color: #3498db; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona o sublinhado dos links ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #333; /* Cor de fundo escura para o rodapé */
+    color: #fff; /* Cor do texto branca para contraste */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    width: 100%; /* Largura total do rodapé */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+}
